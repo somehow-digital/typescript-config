@@ -1,0 +1,29 @@
+{
+	"name": "@somehow-digital/typescript-config",
+	"description": "Shared `typescript` configurations for `somehow.digital` projects.",
+	"version": "0.0.0",
+	"type": "module",
+	"license": "MIT",
+	"repository": "somehow-digital/typescript-config",
+	"scripts": {
+		"lint": "prettier --check .",
+		"format": "prettier --write .",
+		"prepare": "husky install"
+	},
+	"exports": {
+		".": "./configuration/basic.json",
+		"./basic": "./configuration/basic.json"
+	},
+	"files": [
+		"./configuration/"
+	],
+	"peerDependencies": {
+		"typescript": "^4.8.4"
+	},
+	"devDependencies": {
+		"@somehow-digital/prettier-config": "^1.0.1",
+		"husky": "^8.0.1",
+		"prettier": "2.7.1",
+		"typescript": "^4.8.4"
+	}
+}

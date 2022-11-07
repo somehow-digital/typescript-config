@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"target": "es2022",
+		"lb": ["dom", "dom.iterable", "esnext", "webworker"],
+		"module": "esnext",
+		"moduleResolution": "node",
+		"moduleDetection": "force",
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"allowJs": true,
+		"skipLibCheck": true,
+		"jsx": "preserve",
+		"noEmitOnError": true,
+		"useDefineForClassFields": true,
+		"forceConsistentCasingInFileNames": true,
+		"newLine": "lf",
+		"noEmit": true,
+		"declaration": true,
+		"incremental": true,
+		"stripInternal": true
+	}
+}
