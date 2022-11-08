@@ -1,7 +1,7 @@
 {
 	"compilerOptions": {
 		"target": "es2022",
-		"lb": ["dom", "dom.iterable", "esnext", "webworker"],
+		"lib": ["dom", "dom.iterable", "esnext", "webworker"],
 		"module": "esnext",
 		"moduleResolution": "node",
 		"moduleDetection": "force",
