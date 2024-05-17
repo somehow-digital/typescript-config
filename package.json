@@ -5,10 +5,18 @@
 	"type": "module",
 	"license": "MIT",
 	"repository": "somehow-digital/typescript-config",
+	"packageManager": "pnpm@9.1.0",
+	"engines": {
+		"node": ">=20",
+		"pnpm": ">=9"
+	},
 	"scripts": {
-		"lint": "prettier --check .",
-		"format": "prettier --write .",
-		"prepare": "husky install"
+		"prepare": "husky",
+		"lint": "pnpm run /^lint:.+/",
+		"lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}'",
+		"lint:prettier": "prettier --check '**/*.{md,json,yml,yaml}'",
+		"lint:cspell": "cspell --no-progress --no-summary --no-must-find-files '**/*.*'",
+		"lint:knip": "knip --no-progress"
 	},
 	"exports": {
 		".": "./configuration/basic.json",
@@ -18,12 +26,17 @@
 		"./configuration/"
 	],
 	"peerDependencies": {
-		"typescript": "^4.8.4"
+		"typescript": "^5.4.5"
 	},
 	"devDependencies": {
-		"@somehow-digital/prettier-config": "^1.0.1",
-		"husky": "^8.0.1",
-		"lint-staged": "^13.0.3",
-		"prettier": "2.7.1"
+		"@somehow-digital/eslint-config": "^2.0.0",
+		"@somehow-digital/prettier-config": "^2.0.0",
+		"cspell": "^8.8.0",
+		"eslint": "^9.2.0",
+		"husky": "^9.0.11",
+		"knip": "^5.13.0",
+		"lint-staged": "^15.2.2",
+		"prettier": "3.2.5",
+		"typescript": "^5.4.5"
 	}
 }
