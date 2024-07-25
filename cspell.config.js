@@ -19,5 +19,13 @@ export default {
 		'css',
 		'bash',
 		'misc',
+		'project',
+	],
+	dictionaryDefinitions: [
+		{
+			addWords: true,
+			name: 'project',
+			path: './dictionary.txt',
+		},
 	],
 };
