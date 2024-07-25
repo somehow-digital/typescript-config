@@ -34,7 +34,7 @@
 	},
 	"devDependencies": {
 		"@cspell/dict-de-de": "^4.0.0",
-		"@somehow-digital/eslint-config": "^2.0.0",
+		"@somehow-digital/eslint-config": "github:somehow-digital/eslint-config",
 		"@somehow-digital/prettier-config": "^2.0.0",
 		"concurrently": "^8.2.2",
 		"cspell": "^8.8.0",
