@@ -14,6 +14,7 @@
 		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true,
 		"isolatedModules": true,
+		"isolatedDeclarations": true,
 		"forceConsistentCasingInFileNames": true,
 
 		"strict": true,
@@ -25,6 +26,7 @@
 		"newLine": "lf",
 		"incremental": true,
 		"declaration": true,
+		"composite": true,
 		"stripInternal": true,
 		"noEmit": true,
 		"noEmitOnError": true
