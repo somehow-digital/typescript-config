@@ -2,24 +2,31 @@
 	"compilerOptions": {
 		"target": "es2022",
 		"lib": ["dom", "dom.iterable", "esnext", "webworker"],
+		"jsx": "react-jsx",
+		"allowJs": true,
+		"skipLibCheck": true,
+
 		"module": "esnext",
 		"moduleResolution": "bundler",
 		"moduleDetection": "force",
-		"esModuleInterop": true,
 		"resolveJsonModule": true,
-		"isolatedModules": true,
+		"verbatimModuleSyntax": true,
+		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true,
-		"strict": true,
-		"allowJs": true,
-		"skipLibCheck": true,
-		"jsx": "react-jsx",
-		"noEmitOnError": true,
-		"useDefineForClassFields": true,
+		"isolatedModules": true,
 		"forceConsistentCasingInFileNames": true,
+
+		"strict": true,
+		"useDefineForClassFields": true,
+		"noUncheckedIndexedAccess": true,
+		"exactOptionalPropertyTypes": true,
+		"noImplicitOverride": true,
+
 		"newLine": "lf",
-		"noEmit": true,
-		"declaration": true,
 		"incremental": true,
-		"stripInternal": true
+		"declaration": true,
+		"stripInternal": true,
+		"noEmit": true,
+		"noEmitOnError": true
 	}
 }
