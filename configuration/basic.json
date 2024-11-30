@@ -16,6 +16,7 @@
 		"isolatedModules": true,
 		"isolatedDeclarations": true,
 		"forceConsistentCasingInFileNames": true,
+		"allowImportingTsExtensions": true,
 
 		"strict": true,
 		"useDefineForClassFields": true,
