@@ -25,7 +25,8 @@
 	"exports": {
 		".": "./configuration/basic.json",
 		"./basic": "./configuration/basic.json",
-		"./react": "./configuration/react.json"
+		"./react": "./configuration/react.json",
+		"./vue": "./configuration/vue.json"
 	},
 	"files": [
 		"./configuration/"
