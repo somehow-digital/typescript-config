@@ -1,5 +1,5 @@
 export default {
-	entry: ['configuration/*.js'],
+	entry: ['configuration/*.json'],
 	ignoreDependencies: [
 		'@semantic-release/commit-analyzer',
 		'@semantic-release/github',
