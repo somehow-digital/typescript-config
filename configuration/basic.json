@@ -13,7 +13,7 @@
 		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true,
 		"isolatedModules": true,
-		"isolatedDeclarations": true,
+		"isolatedDeclarations": false,
 		"forceConsistentCasingInFileNames": true,
 		"allowImportingTsExtensions": true,
 
