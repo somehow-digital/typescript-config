@@ -25,6 +25,7 @@
 	"exports": {
 		".": "./configuration/basic.json",
 		"./basic": "./configuration/basic.json",
+		"./qwik": "./configuration/qwik.json",
 		"./react": "./configuration/react.json",
 		"./remix": "./configuration/remix.json",
 		"./vue": "./configuration/vue.json"
