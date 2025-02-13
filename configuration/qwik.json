@@ -1,0 +1,7 @@
+{
+	"extends": "./basic.json",
+	"compilerOptions": {
+		"jsx": "react-jsx",
+		"jsxImportSource": "@builder.io/qwik"
+	}
+}
