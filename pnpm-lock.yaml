@@ -51,7 +51,7 @@ importers:
         specifier: ^24.2.0
         version: 24.2.3(typescript@5.8.2)
       typescript:
-        specifier: ^5.4.5
+        specifier: ^5.8.2
         version: 5.8.2
 
 packages:
