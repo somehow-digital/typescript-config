@@ -16,6 +16,7 @@
 		"isolatedDeclarations": false,
 		"forceConsistentCasingInFileNames": true,
 		"allowImportingTsExtensions": true,
+		"erasableSyntaxOnly": true,
 
 		"strict": true,
 		"useDefineForClassFields": true,
