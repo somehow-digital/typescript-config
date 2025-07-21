@@ -14,6 +14,6 @@ pnpm add -D @somehow-digital/typescript-config
 
 ```json
 {
-  "extends": "@somehow-digital/typescript-config/basic"
+	"extends": "@somehow-digital/typescript-config/basic"
 }
 ```
