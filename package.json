@@ -28,7 +28,7 @@
 		"fix:knip": "knip --no-progress --fix"
 	},
 	"peerDependencies": {
-		"typescript": "^5.8.2"
+		"typescript": "^5.8.2 || ^6.0.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^20.0.0",
