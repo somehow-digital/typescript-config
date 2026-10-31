@@ -28,7 +28,7 @@
 		"fix:knip": "knip --no-progress --fix"
 	},
 	"peerDependencies": {
-		"typescript": "^5.8.2 || ^6.0.0"
+		"typescript": "^5.8.2 || ^6.0.0 || ^7.0.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^21.0.0",
@@ -41,7 +41,7 @@
 		"eslint": "^10.0.0",
 		"knip": "^6.0.0",
 		"semantic-release": "^25.0.0",
-		"typescript": "^6.0.0",
+		"typescript": "^7.0.0",
 		"vite-plus": "1.4.0"
 	}
 }
