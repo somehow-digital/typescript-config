@@ -17,3 +17,7 @@ pnpm add -D @somehow-digital/typescript-config
 	"extends": "@somehow-digital/typescript-config/basic"
 }
 ```
+
+---
+
+[`somehow.digital`](https://somehow.digital/)
